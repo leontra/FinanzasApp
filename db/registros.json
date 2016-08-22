@@ -1,0 +1,124 @@
+{
+    "fecha_2015": {
+        "enero": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "-"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "-"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "febrero": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "-"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "-"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "marzo": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "6000",
+                            "iva": "960",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "AAA1F7B6-B074-4247-B353-E00AB50FD6BC"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "2993.75",
+                            "iva": "479",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "C80D876A-F3F4-3B4D-27A7-24A8D21AAE8F"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

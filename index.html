@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <title>Finanzas app</title>   
+</head>
+
+<body>
+    <div id="container">
+
+        <form id="FinanzasForm" name="finanzasForm">
+
+            <div id="fechaRegistrar">
+                <div id="selectAno">
+                    <select id="iAno" name="ano" required>
+                        <option value="0" class="default" selected disabled>Ano</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                    </select>
+                </div>
+                <div id="selectMes">
+                    <select id="iMes" name="mes" required>
+                        <option value="0" class="default" selected disabled>Mes</option>
+                        <option value="01">Enero</option>
+                        <option value="02">Febrero</option>
+                        <option value="03">Marzo</option>
+                        <option value="04">Abril</option>
+                        <option value="05">Mayo</option>
+                        <option value="06">Junio</option>
+                        <option value="07">Julio</option>
+                        <option value="08">Agosto</option>
+                        <option value="09">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                </div>
+            </div>
+
+            <fieldset id="groupRecibido">
+                <p>Recibido</p>
+                <div class="facturado">
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iCantidad" name="cantidad" placeholder="cantidad"></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iIva" name="iva" placeholder="iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRiva" name="riva" placeholder="retenido iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRisr" name="risr" placeholder="retenido isr" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="text" class="iFacturaId" name="factura-id" placeholder="folio fiscal"></input>         
+                    </section>
+                    <div class="subtotal"><p></p></div>
+                </div>                
+                <div class="facturado">
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iCantidad" name="cantidad" placeholder="cantidad"></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iIva" name="iva" placeholder="iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRiva" name="riva" placeholder="retenido iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRisr" name="risr" placeholder="retenido isr" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="text" class="iFacturaId" name="factura-id" placeholder="folio fiscal"></input>         
+                    </section>
+                    <div class="subtotal"><p></p></div>
+                </div>                
+                     
+                <div id="totalGenerado"><p></p></div>
+            </fieldset>
+
+            <fieldset id="groupGastado">
+                <p>Gastado</p>
+                <div class="facturado">
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iCantidad" name="cantidad" placeholder="cantidad"></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iIva" name="iva" placeholder="iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRiva" name="riva" placeholder="retenido iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRisr" name="risr" placeholder="retenido isr" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="text" class="iFacturaId" name="factura-id" placeholder="folio fiscal"></input>         
+                    </section>
+                    <div class="subtotal"><p></p></div>
+                </div> 
+                <div class="facturado">
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iCantidad" name="cantidad" placeholder="cantidad"></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iIva" name="iva" placeholder="iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRiva" name="riva" placeholder="retenido iva" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="number" step="0.01" class="iRisr" name="risr" placeholder="retenido isr" ></input>         
+                    </section>
+                    <section class="input-section">
+                        <input type="text" class="iFacturaId" name="factura-id" placeholder="folio fiscal"></input>         
+                    </section>
+                    <div class="subtotal"><p></p></div>
+                </div>              
+                <div id="totalGastado"><p></p></div>
+            </fieldset>        
+
+            <div id="total"><p>Total</p></div>
+
+            <div id="submitContainer">
+                <button type="submit" class="btn" id="btnRegistro">Actualizar</button>
+            </div>
+
+        </form>
+
+        <div id="resultados">
+        </div>
+    </div>
+</body>
+</html>
+<link href="css/app.css" rel="stylesheet" type="text/css" />
+<script data-main="app/main" src="library/require.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,900" rel="stylesheet">
