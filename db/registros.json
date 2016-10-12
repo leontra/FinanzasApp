@@ -119,6 +119,648 @@
                     ]
                 }
             }
+        },
+        "abril": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "366B2587-3222-4991-8E8B-F39B801B184D"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "mayo": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "D08AF420-E890-41EB-AFF1-9FBB72781363"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "junio": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "90A6CA7A-DC37-4D99-8648-4CB476847ECF"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "julio": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "71C0300A-F2FF-4295-9FC2-D021F3C88425"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "agosto": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "4C81EA88-C1A3-42A7-AD5C-75E41FA1BC49"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "septiembre": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "D2EFC793-570C-4982-B568-A7B00D433031"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "octubre": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "4B7F92C2-0BC1-4E0C-87D8-C164049B81CC"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "noviembre": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "9833.92",
+                            "iva": "1573.43",
+                            "ivaretenido": "1048.96",
+                            "isrretenido": "983.39",
+                            "idfactura": "6E17878C-B1D8-493B-B2E0-6522366A9307"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "diciembre": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "0"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "fecha_2016": {
+        "enero": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "-"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "-"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "febrero": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "0",
+                            "iva": "0",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "-"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "9626.92",
+                            "iva": "1540.31",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": "c3506e57-8cc3-46e1836a-b02fd54a6ccd"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "marzo": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "8741.26",
+                            "iva": "1398.60",
+                            "ivaretenido": "932.40",
+                            "isrretenido": "874.13",
+                            "idfactura": "2CA51CB7-D7D9-4CB0-A1F7-7BD50BEDA8E0"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "abril": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "8741.26",
+                            "iva": "1398.60",
+                            "ivaretenido": "932.40",
+                            "isrretenido": "874.13",
+                            "idfactura": "C07CDFB9-C272-4A23-AB4D-A71451090EC0"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "mayo": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "8741.26",
+                            "iva": "1398.60",
+                            "ivaretenido": "932.40",
+                            "isrretenido": "874.13",
+                            "idfactura": "B1444859-D1E0-472A-B70E-B864F2689DDE"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "283.62",
+                            "iva": "45.38",
+                            "ivaretenido": "0",
+                            "isrretenido": "0",
+                            "idfactura": "e11d99a7-d931-442e-8623-f2a6a27d6d1f"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "junio": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "8741.26",
+                            "iva": "1398.60",
+                            "ivaretenido": "932.40",
+                            "isrretenido": "874.13",
+                            "idfactura": "E69D1598-48D0-4E06-9EFC-069EE62C568A"
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
+        },
+        "julio": {
+            "facturado": {
+                "recibido": {
+                    "facturas": [
+                        {
+                            "cantidad": "8741.26",
+                            "iva": "1398.60",
+                            "ivaretenido": "932.40",
+                            "isrretenido": "874.13",
+                            "idfactura": "C6C69D79-03AC-48AE-905B-FFF4337B8EA6"
+                        },
+                        {
+                            "cantidad": "6206.90",
+                            "iva": "993.10",
+                            "ivaretenido": "662.07",
+                            "isrretenido": "620.69",
+                            "idfactura": "57AD55C0-A2DB-4934-8D5E-65B57A838EC2"
+                        }
+                    ]
+                },
+                "gastado": {
+                    "facturas": [
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        },
+                        {
+                            "cantidad": "",
+                            "iva": "",
+                            "ivaretenido": "",
+                            "isrretenido": "",
+                            "idfactura": ""
+                        }
+                    ]
+                }
+            }
         }
     }
 }

@@ -2,6 +2,12 @@ define(function ()
 {
     this.jsonData = {};
 
+    let subTotalPorMes = 0;
+    let totalPorMes = 0;
+
+    let subTotalPorAnio = 0;
+    let totalPorAnio = 0;
+
     this.Initialize = e =>
     {
         let cantidadInputs = document.getElementsByClassName('iCantidad');
@@ -34,6 +40,9 @@ define(function ()
             div.appendChild(nuevoObjetoConTexto("Año: " + anios[i]), 'anio-text');
             document.getElementById('resultados').appendChild(div);
 
+            subTotalPorAnio = 0;
+            totalPorAnio = 0;            
+
             for(var j = 0; j < meses.length; ++j)
             {
                 let mesProperty = meses[j];
@@ -42,11 +51,17 @@ define(function ()
 
                 agregarDivConElContenidoFacturadoPorMes(meses[j], this.jsonData[anioProperty][mesProperty].facturado);
             }
+
+            div.appendChild(nuevoObjetoConTexto("Subtotal: " + subTotalPorAnio), 'total-text-anio');
+            div.appendChild(nuevoObjetoConTexto("Total: " + totalPorAnio), 'total-text-anio');
         }
-    }
+    }    
 
     let agregarDivConElContenidoFacturadoPorMes = (mes, facturadoObject) =>
-    {        
+    {                
+        subTotalPorMes = 0;
+        totalPorMes = 0;
+
         let div = document.createElement('div');
         div.classList.add('facturas-mes');
 
@@ -56,7 +71,13 @@ define(function ()
         div = obtenerValoresFacturadosDeTipo('gastado', facturadoObject, div);
 
         let container = document.getElementById('resultados');
+
+        totalPorAnio += totalPorMes;
+        subTotalPorAnio += subTotalPorMes;
+
         container.appendChild(div);
+        container.appendChild(nuevoObjetoConTexto("Subtotal: " + subTotalPorMes, 'total-mes-text'));
+        container.appendChild(nuevoObjetoConTexto("Total: " + totalPorMes, 'total-mes-text'));
     }
 
     let obtenerValoresFacturadosDeTipo = (tipo, facturadoObject, div) =>
@@ -75,7 +96,23 @@ define(function ()
             for(var k = 0; k < propiedades.length; ++k)
                 div.appendChild(nuevoObjetoConTexto(facturaObject[propiedades[k]], 'contenido-text'));
 
-            let totalFactura = Number(facturaObject.cantidad) + Number(facturaObject.iva);
+            let subTotal = Number(facturaObject.cantidad) + Number(facturaObject.iva);
+            let ivaRetenido = Number(facturaObject.ivaretenido);
+            let isrRetenido = Number(facturaObject.isrretenido);
+            let totalFactura = subTotal - ivaRetenido - isrRetenido;
+
+            if(tipo === 'recibido')
+            {
+                subTotalPorMes += subTotal;
+                totalPorMes += totalFactura;
+            }
+            else if(tipo === 'gastado')
+            {
+                subTotalPorMes -= subTotal;
+                totalPorMes -= totalFactura;                
+            }
+
+            div.appendChild(nuevoObjetoConTexto("Subtotal: " + subTotal, 'total-text'));
             div.appendChild(nuevoObjetoConTexto("Total: " + totalFactura, 'total-text'));
 
             div.appendChild(nuevoObjetoConTexto(facturaObject['idfactura'], 'folio-text'));
@@ -139,6 +176,7 @@ define(function ()
 
     let OnHttpRequestFinishes = data =>
     {
+        console.log(data);
         if(data.status === 1)
         {
             alert('Informacion actualizada');
@@ -172,8 +210,7 @@ define(function ()
         modelo.facturas = [];        
         
         let group = document.getElementById('groupRecibido');    
-        
-        for(var i = 1; i < group.childNodes.length - 2; i += 2)    
+        for(var i = 3; i < group.childNodes.length - 2; i += 2)    
             modelo.facturas.push(getFacturaDeSeccion(group.childNodes[i]));      
 
         return modelo;  
@@ -186,7 +223,7 @@ define(function ()
         
         let group = document.getElementById('groupGastado');    
         
-        for(var i = 1; i < group.childNodes.length - 2; i += 2)    
+        for(var i = 3; i < group.childNodes.length - 2; i += 2)    
             modelo.facturas.push(getFacturaDeSeccion(group.childNodes[i]));      
 
         return modelo;  
