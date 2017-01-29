@@ -1,0 +1,27 @@
+{
+  "name": "finanzasapp",
+  "version": "1.0.0",
+  "description": "Es una aplicación para llevar el control con haciendo de lo generado y lo gastado.",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leontra/FinanzasApp.git"
+  },
+  "author": "Maximiliano Oviedo Rosas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leontra/FinanzasApp/issues"
+  },
+  "homepage": "https://github.com/leontra/FinanzasApp#readme",
+  "devDependencies": {
+    "chai": "*",
+    "chai-enzyme": "^0.6.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.2"
+  }
+}

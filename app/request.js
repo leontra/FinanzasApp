@@ -1,4 +1,4 @@
-define(function () 
+/*define(function () 
 {
     var OnHttpRequestChange = function(event)
     {
@@ -40,4 +40,75 @@ define(function ()
     }     
 
     return this;
-});
+});*/
+
+(function()
+{
+    var request = {};
+
+    request.get = function( fileName ) 
+    {    
+        return new Promise(function( resolve, reject ) 
+        {                      
+            var req = new XMLHttpRequest();                     
+            req.open( 'GET', './db/' + fileName + '.json' );
+            req.onload = function( ) 
+            {                
+                if (req.status === 200)                 
+                    resolve(req.response);                
+                else                                     
+                    reject(Error(req.responseText));                
+            };
+
+            req.onerror = function() {                
+                reject(Error('Network Error'));
+            };
+
+            req.send();
+        });
+    }
+
+    request.put = function( title, json ) 
+    {    
+        return new Promise(function( resolve, reject ) 
+        {                                              
+            var req = new XMLHttpRequest();                                                    
+            req.open('POST', './FileLoader/httpRequest.php?NuevoRegistro');            
+            req.onload = function( ) 
+            {                
+                if (req.status === 200)                 
+                    resolve(JSON.parse(req.response));                
+                else                                     
+                    reject(Error(req.responseText));                
+            };
+
+            req.onerror = function() {                
+                reject(Error('Network Error'));
+            };   
+
+            req.send(JSON.stringify(json));         
+        });
+    }
+    
+    var root, previous_async;
+
+    root = this;
+    if (root != null) {
+      previous_async = root.request;
+    }
+    
+    if (typeof module !== 'undefined' && module.exports) 
+    { // Node.js
+        module.exports = request;
+    }    
+    else if (typeof define !== 'undefined' && define.amd) 
+    { // AMD / RequireJS
+        define([], function () {
+            return request;
+        });
+    }    
+    else 
+    { // included directly via <script> tag
+        root.request = request;
+    }    
+})();

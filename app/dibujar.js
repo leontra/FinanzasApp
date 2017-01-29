@@ -8,20 +8,15 @@ define(function ()
     let subTotalPorAnio = 0;
     let totalPorAnio = 0;
 
-    this.Initialize = e =>
+    this.Initialize = data =>
     {
         let cantidadInputs = document.getElementsByClassName('iCantidad');
 
         var form = document.getElementById('FinanzasForm');
         form.addEventListener('submit', OnFormSubmit);
 
-        obtenerInformacion();
-    }
-
-    let obtenerInformacion = () =>
-    {
-        let httpRequest = require('./request');
-        httpRequest.ObtenerJSONData('registros', OnHttpRequestObtenerDone);
+        this.jsonData = data;
+        OnHttpRequestObtenerDone(data);
     }
 
     let OnHttpRequestObtenerDone = data =>
@@ -256,29 +251,6 @@ define(function ()
         alert(mensaje);
         return false;
     }
-
-    /*let OnCantidadInputChange = evento => 
-    {
-        var cantidad = Number(evento.target.value);
-        var padre = evento.target.parentNode.parentNode;
-        setIvaValue(padre, cantidad);        
-    }
-
-    let setIvaValue = (padre, cantidad) =>
-    {
-        var iva = padre.childNodes[3].childNodes[1];
-        var ivaValue = (cantidad * 16) / 100;  
-        
-        iva.value = ivaValue;
-    }
-
-    let setIsrValue = (padre, cantidad) =>
-    {
-        var isr = padre.childNodes[5].childNodes[1];
-        var isrValue = (cantidad * 16) / 100;  
-        
-        isr.value = isrValue;
-    }*/
 
     return this;
 });
